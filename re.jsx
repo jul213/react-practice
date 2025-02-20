@@ -16,4 +16,9 @@ class hola extends React.Component{
             <input type="text" value={this.state.in} onChange={(e) => this.handle} />
         )
     }
+
 }
+ReactDOM.render(
+    <hola />,
+    document.getElementById("root")
+)
