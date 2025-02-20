@@ -22,3 +22,9 @@ ReactDOM.render(
     <hola />,
     document.getElementById("root")
 )
+
+
+
+function A(props){
+    return <p>A</p>
+}
