@@ -33,3 +33,6 @@ function B(props){
     return <p>B</p>
 }
 
+function C(props){
+    const show = props.show;
+}
