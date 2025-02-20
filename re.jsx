@@ -53,3 +53,4 @@ const props = {
 
 
 const component = <Component {...props}  content="otras cosas"/>
+const component2 = <Component {...props} name="kizi" />
