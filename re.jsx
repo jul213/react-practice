@@ -52,4 +52,4 @@ const props = {
 }
 
 
-const component = <Component {...props} />
+const component = <Component {...props}  content="otras cosas"/>
