@@ -35,5 +35,10 @@ function B(props){
 
 function C(props){
     const show = props.show;
-    return show ? <A /> : <B />
+    return show ? <A /> : <B />;
 }
+
+ReactDOM.render(
+    <C show={false} />,
+    document.getElementById("root")
+)
