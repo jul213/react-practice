@@ -1,3 +1,5 @@
+const { Component } = require("react");
+
 class hola extends React.Component{
     constructor(props){
         super(props);
@@ -48,3 +50,6 @@ const props = {
     name: "juan",
     apellido: "cesar"
 }
+
+
+const component = <Component {...props} />
