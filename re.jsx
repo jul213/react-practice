@@ -6,6 +6,8 @@ class hola extends React.Component{
     }
 
     handle(e){
-        
+        this.setState({
+            in: e.target.value
+        })
     }
 }
