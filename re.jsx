@@ -42,3 +42,9 @@ ReactDOM.render(
     <C show={false} />,
     document.getElementById("root")
 )
+
+
+const props = {
+    name: "juan",
+    apellido: "cesar"
+}
