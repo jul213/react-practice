@@ -35,4 +35,5 @@ function B(props){
 
 function C(props){
     const show = props.show;
+    return show ? <A /> : <B />
 }
