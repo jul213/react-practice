@@ -28,3 +28,8 @@ ReactDOM.render(
 function A(props){
     return <p>A</p>
 }
+
+function B(props){
+    return <p>B</p>
+}
+
