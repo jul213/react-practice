@@ -10,4 +10,10 @@ class hola extends React.Component{
             in: e.target.value
         })
     }
+
+    render(){
+        return (
+            <input type="text" value={this.state.in} onChange={(e) => } />
+        )
+    }
 }
